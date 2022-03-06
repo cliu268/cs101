@@ -14,3 +14,11 @@
 # 1 0 1 1
 # Sample output:
 # 1
+a,b,c,d = map(int, input().split())
+x = a+b+c+d
+if x == 0 or x == 4:
+    print(0)
+elif x == 1 or x == 3:
+    print(1)
+else:
+    print(2)

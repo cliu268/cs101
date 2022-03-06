@@ -18,3 +18,6 @@
 # Sample output:
 # 30
 # 10
+x, y = map(int, input().split())
+print(int(x - (y - 2*x) / 2))
+print(int((y - 2*x) / 2))

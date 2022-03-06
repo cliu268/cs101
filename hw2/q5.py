@@ -20,3 +20,12 @@
 # 1900 
 # Sample Output 2
 # no
+integer = int(input())
+if integer % 400 == 0:
+    print("yes")
+elif integer % 100 == 0:
+    print("no")
+elif integer % 4 == 0:
+    print("yes")
+else:
+    print("no")

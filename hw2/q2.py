@@ -25,3 +25,10 @@
 
 # Constraints
 # 0 <= n <= 100
+n = int(input())
+if n % 5 == 0:
+    print("YES")
+elif n % 3 == 0 and n <= 20:
+    print("YES")
+else:
+    print("NO")

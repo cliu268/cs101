@@ -21,3 +21,12 @@
 # 3
 # Sample output:
 # 10.00
+x = int(input())
+if x < 2:
+    print("%.2f" % x)
+elif 2 <= x and x < 6:
+    print("%.2f" % (x**2 + 1))
+elif 6 <= x and x < 10:
+    print("%.2f" % ((x+1)**0.5))
+elif 10 <= x:
+    print("%.2f" % (1 / (x+1)))
