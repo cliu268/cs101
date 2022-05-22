@@ -39,3 +39,10 @@ for i in range(1, len(n)):
             answer = i
             break
 print(answer)
+
+# shortest sample answer
+# a = input()
+# for i in range(1, len(a)+1):
+#     if (a[:i] * (len(a)//i) == a):
+#         print(i)
+#         break
